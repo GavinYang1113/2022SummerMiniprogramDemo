@@ -31,7 +31,7 @@
 				avatar_src: "../../static/person_profile_icon.png",
 				profile_text: {
 					nickname: "Nickname",
-					welcome_text: "Welcome to the C-Cloud.", //欢迎词
+					welcome_text: "Welcome to the 2022 Summer Training.", //欢迎词
 				}
 			}
 		},

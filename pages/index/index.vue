@@ -13,21 +13,9 @@
 		data() {
 			return {
 				src: "/static/logo.png ",
-				title: 'Hello Tsinghua'
+				title: 'SSAST'
 			}
 		},
-		onLoad() {
-
-		},
-		methods: {
-			redirect(index) {
-				//通过全局变量传参
-				getApp().globalData.detail_id = index;
-				uni.navigateTo({
-					url: '../../pages/detail/detail',
-				})
-			}
-		}
 	}
 </script>
 

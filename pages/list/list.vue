@@ -14,6 +14,7 @@
 				image_list: []
 			}
 		},
+		// 生命周期函数
 		onLoad() {
 			for (var i = 0; i < 10; i++) {
 				var dict = {
@@ -26,7 +27,7 @@
 		},
 		methods: {
 			redirect(index) {
-				//通过全局变量传参
+				// 通过全局变量传参
 				getApp().globalData.detail_id = index;
 				uni.navigateTo({
 					url: '../../pages/detail/detail',
